@@ -1,0 +1,15 @@
+.bg-calc-color
+{
+    background-color: #523e02;
+}
+
+.h-250{ height: 250px}
+.h-300{ height: 300px}
+.h-200{ height: 200px}
+
+.calcBg
+{
+    background-image: url("../images/bg5.jpeg");
+    background-size: cover;
+    background-repeat: repeat;
+}

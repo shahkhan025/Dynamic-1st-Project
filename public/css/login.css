@@ -1,0 +1,10 @@
+.loginBg
+{
+    background-image: url("../images/bgImg7.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.loginHgt
+{
+    height: 100vh;
+}

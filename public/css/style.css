@@ -1,0 +1,69 @@
+.h-200{ height: 200px }
+.h-600{ height: 600px }
+.mh-50{ height: 50px }
+.h-250{ height: 250px }
+.h-40{ height: 40px }
+.h-150{ height: 150px }
+
+/*div ul li a*/
+/*{*/
+/*    !*display: block;*!*/
+/*    font-size: medium;*/
+/*    font-weight: bold;*/
+/*    !*border: 1px solid grey;*!*/
+/*    margin-right: 2px;*/
+/*    transition: 2s;*/
+/*}*/
+div ul li a:hover
+{
+    transform: scale(1.1);
+    text-decoration-color: #0f5132;
+}
+
+.positiontop
+{
+    position: sticky;
+    top: 0px;
+}
+.positionmenu
+{
+    position: sticky;
+    top: 40px;
+}
+.img-s1-1{ background-image: url("../images/sale1.jpeg") }
+
+[class*='img-s1']:hover
+{
+    transform: scale(1.2);
+}
+
+[class*='img-s2']:hover
+{
+    transform: rotateY(180deg);
+}
+
+[class*='img-s3']:hover
+{
+    transform: skew(45deg);
+}
+
+[class*='img-s']
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+}
+.homeImg
+{
+    height: 200px;
+    width: 320px;
+}
+.homeImg:hover
+{
+    transform: scale(1.10);
+}
+.regPage
+{
+    background-image: url("../images/sl2.jpg");
+}
+
